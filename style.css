@@ -1,0 +1,71 @@
+body {
+    width: 50%;
+    margin: auto
+}
+
+.oneGood,
+.oneBasketGood {
+    border: solid 1px black;
+    padding: 5px; 
+    position: relative;
+    
+}
+
+.name,
+.summ,
+.buyButton,
+.name_basket,
+.summ_basket {
+    position: absolute;
+    right: 5px;
+}
+
+.name {    
+    top: 5px
+}
+
+.summ {    
+    top: 25px
+}
+
+.name_basket{    
+    top: 20px
+}
+
+ .summ_basket{
+    bottom: 5px
+}
+
+.buyButton {
+    display: block;
+    bottom: 10px
+}
+
+#basket_field {
+    border: solid 2px green;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.exit {
+    width: 15px;
+    height: 15px;
+/*    border-radius: 50%;*/
+    background: url(./cute_ball_stop.png);
+    background-size: cover;
+    position: absolute;
+    right: 5px;
+    top: 3px
+}
+
+
+.img_basket {
+    height: 30px;
+    width: 30px;   
+}
+
+.basket_final_sum {    
+    position: absolute;
+    right: 5px;
+}
